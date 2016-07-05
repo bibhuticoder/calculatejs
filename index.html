@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    
+    <title> calculatejs Demo </title>  
+    <script type="text/javascript" src="calculate.min.js"> </script>
+
+</head>
+
+<body style="text-align: center;">
+  
+  <br>
+  <br>
+  <h1>CalculateJs</h1>
+  <br>
+  <br>
+  <br>
+  
+  <input type="text" id="input" value="1+2">
+  <button id="btnCalculate">Calculate</button>
+<br>
+  <br>
+  <div id="output" style="font-size: 20px"></div>
+    
+
+<script>
+
+document.getElementById('btnCalculate').onclick = function(){
+	var input = document.getElementById('input').value;
+	document.getElementById('output').innerHTML = "Output : " + calculate(input);	
+}
+
+
+</script>
+
+</body>
+</html>
