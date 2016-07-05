@@ -10,3 +10,6 @@ how to use ?
 2.Use the calculate(expression) function to get the output
 
 eg: calculate("(1+2)/3+4") => 5
+
+
+demo: https://bibhuticoder.github.io/calculatejs
